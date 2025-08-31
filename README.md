@@ -57,7 +57,7 @@ Criar um protótipo funcional da tela inicial, utilizando um framework adequado:
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/orla-cafeteria.git
+   https://github.com/Celsohsl/Desenvolvimento-Web-com-Framework-e-HTML-CSS-.git
    ```
 2. Abra o projeto no VS Code.
 3. Utilize a extensão **Live Server** para rodar localmente.
