@@ -1,0 +1,347 @@
+ :root {
+       --coffee-black: #000000;
+       --coffee-brown: #8B4513;
+       --coffee-card: #c08267;
+       --coffee-dark: #654321;
+       --coffee-light: #D2B48C;
+       --cream: #F5DEB3;
+ }
+
+ /* Header navbar  */
+ .navbar-brand {
+       color: var(--coffee-brown) !important;
+       font-weight: bold;
+ }
+
+ .bg-header {
+       background-color: #F5F5F5;
+ }
+
+ .nav-link:hover {
+       color: #d56d06;
+ }
+
+ /* Seção contato */
+ .contact-section {
+       background-color: var(--cream);
+       padding: 80px 0;
+ }
+
+ .contact-form {
+       background: white;
+       border-radius: 15px;
+       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+       padding: 40px;
+ }
+
+ .contact-info {
+       background: var(--coffee-brown);
+       border-radius: 15px;
+       color: white;
+       height: 100%;
+       padding: 40px;
+ }
+
+ .contact-info-item {
+       align-items: center;
+       display: flex;
+       margin-bottom: 20px;
+ }
+
+ .contact-info-item i {
+       font-size: 1.5rem;
+       margin-right: 15px;
+       width: 30px;
+ }
+
+ .btn-coffee {
+       background-color: var(--coffee-brown);
+       border-color: var(--coffee-brown);
+       color: white;
+       font-weight: bold;
+       padding: 12px 30px;
+ }
+
+ .btn-coffee:hover {
+       background-color: var(--coffee-dark);
+       border-color: var(--coffee-dark);
+       color: white;
+ }
+
+ /* Pedidos/Contato */
+ .form-control:focus {
+       border-color: var(--coffee-brown);
+       box-shadow: 0 0 0 0.2rem rgba(139, 69, 19, 0.25);
+ }
+
+ /*Seção quem somos */
+ .sobre {
+       font-size: 1.25rem;
+       font-weight: 350;
+       padding: 3rem;
+ }
+
+ .story-section {
+       background-color: var(--cream);
+       padding: 80px 0;
+ }
+
+ /* Seções Hero*/
+ .hero-section,
+ .hero-section,
+ .hero-section-quemsomos,
+ .hero-section-contato,
+ .hero-section-pedido,
+ .hero-section-index {
+       background: linear-gradient(rgba(106, 102, 102, 0.7), rgba(0, 0, 0, 0.7)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23654321" width="1200" height="600"/><rect fill="%238B4513" cx="200" cy="250" r="30"/><rect fill="%23D2B48C" cx="800" cy="300" r="25"/></svg>');
+       background-position: center;
+       background-size: cover;
+       color: white;
+       padding: 100px 0;
+ }
+
+ /* Cards Especialidades Index  */
+ .coffee-section {
+       background-color: var(--cream);
+       padding: 80px 0;
+ }
+
+ .coffee-card {
+       background: var(--coffee-card);
+       border-radius: 15px;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.32);
+       margin: 20px 0;
+       padding: 30px;
+       transition: transform 0.3s;
+ }
+
+ .coffee-card:hover {
+       transform: translateY(-5px);
+ }
+
+ .coffee-card h3 {
+       color: white;
+ }
+
+ /* Footer */
+ .footer {
+       background-color: var(--coffee-dark);
+       color: white;
+       padding: 40px 0;
+ }
+
+ .footer h5 {
+       color: rgb(223, 122, 49);
+ }
+
+ .footer a {
+       color: var(--coffee-light);
+       text-decoration: none;
+ }
+
+ .footer a:hover {
+       color: white;
+ }
+
+ /* Menu contador carrinho */
+ .cart-counter {
+       background: var(--coffee-brown);
+       border-radius: 50px;
+       bottom: 30px;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+       color: white;
+       cursor: pointer;
+       font-weight: bold;
+       padding: 15px 25px;
+       position: fixed;
+       right: 30px;
+       z-index: 1000;
+ }
+
+ .menu-section {
+       background-color: var(--cream);
+       padding: 80px 0;
+ }
+
+ /* Cards menu */
+ .menu-card {
+       background: white;
+       border-radius: 15px;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       margin-bottom: 20px;
+       padding: 20px;
+       transition: transform 0.3s;
+ }
+
+ .menu-card img {
+      width: 70%;
+ }
+
+ .menu-card:hover {
+       transform: translateY(-5px);
+ }
+
+ .menu-placeholder {
+       align-items: center;
+       background: var(--coffee-brown);
+       border-radius: 50%;
+       color: white;
+       display: flex;
+       font-size: 1.2rem;
+       height: 50px;
+       justify-content: center;
+       margin-bottom: 15px;
+       width: 50px;
+ }
+
+ .price {
+       color: var(--coffee-brown);
+       font-size: 1.1rem;
+       font-weight: bold;
+ }
+
+ .btn-add {
+       background-color: var(--coffee-brown);
+       border-color: var(--coffee-brown);
+       border-radius: 25px;
+       color: white;
+       font-size: 0.9rem;
+       padding: 8px 20px;
+ }
+
+ .btn-add:hover {
+       background-color: var(--coffee-dark);
+       border-color: var(--coffee-dark);
+       color: white;
+ }
+
+ .category-title {
+       border-bottom: 3px solid var(--coffee-brown);
+       color: var(--coffee-dark);
+       margin-bottom: 30px;
+       padding-bottom: 10px;
+ }
+
+ /* Seção pedidos*/
+ .orders-section {
+       background-color: var(--cream);
+       min-height: 70vh;
+       padding: 80px 0;
+ }
+
+ .cart-container {
+       background: white;
+       border-radius: 15px;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       padding: 30px;
+ }
+
+ .cart-item {
+       align-items: center;
+       background: #f8f9fa;
+       border-radius: 10px;
+       display: flex;
+       justify-content: between;
+       margin-bottom: 15px;
+       padding: 15px;
+ }
+
+ .item-info {
+       flex: 1;
+ }
+
+ .item-name {
+       color: var(--coffee-dark);
+       font-weight: bold;
+ }
+
+ .item-price {
+       color: var(--coffee-brown);
+       font-weight: bold;
+ }
+
+ .quantity-controls {
+       align-items: center;
+       display: flex;
+       gap: 10px;
+ }
+
+ .quantity-btn {
+       align-items: center;
+       background: var(--coffee-brown);
+       border: none;
+       border-radius: 50%;
+       color: white;
+       cursor: pointer;
+       display: flex;
+       height: 30px;
+       justify-content: center;
+       width: 30px;
+ }
+
+ .quantity-btn:hover {
+       background: var(--coffee-dark);
+ }
+
+ .remove-btn {
+       background: #dc3545;
+       border: none;
+       border-radius: 5px;
+       color: white;
+       cursor: pointer;
+       font-size: 0.8rem;
+       padding: 5px 10px;
+ }
+
+ .remove-btn:hover {
+       background: #c82333;
+ }
+
+ .order-summary {
+       background: var(--coffee-brown);
+       border-radius: 15px;
+       color: white;
+       margin-top: 20px;
+       padding: 25px;
+ }
+
+ .delivery-form {
+       background: white;
+       border-radius: 15px;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       margin-top: 20px;
+       padding: 30px;
+ }
+
+ .btn-order {
+       background-color: var(--coffee-brown);
+       border-color: var(--coffee-brown);
+       border-radius: 25px;
+       color: white;
+       font-size: 1.1rem;
+       font-weight: bold;
+       padding: 15px 30px;
+       width: 100%;
+ }
+
+ .btn-order:hover {
+       background-color: var(--coffee-dark);
+       border-color: var(--coffee-dark);
+       color: white;
+ }
+
+ .empty-cart {
+       color: #6c757d;
+       padding: 50px;
+       text-align: center;
+ }
+
+ .empty-cart i {
+       font-size: 4rem;
+       margin-bottom: 20px;
+ }
+
+ .form-control:focus {
+       border-color: var(--coffee-brown);
+       box-shadow: 0 0 0 0.2rem rgba(139, 69, 19, 0.25);
+ }

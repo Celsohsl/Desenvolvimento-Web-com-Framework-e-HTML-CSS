@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orla do Café - Home</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/faviconindex/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/faviconindex/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/faviconindex/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/faviconindex/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/faviconindex/favicon-16x16.png">
+    <link rel="manifest" href="img/faviconindex/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/faviconindex/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header com navegação -->
+    <header class="bg-header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="img/faviconindex/cafe72x72.png" alt="Logo Orla do Café" width="72" height="72">
+                    <span class="ms-2">Orla do Café</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="quem-somos.html">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="pedidos.html">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="flex-fill">
+
+        <!-- Carousel de imagens -->
+        <section aria-label="Destaques da cafeteria">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/carousel/coffee.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/cofee1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/cofee2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Seção hero -->
+        <section class="hero-section-index">
+            <div class="container text-center">
+                <h1 class="display-4 mb-4">Bem-vindos à Orla do Café</h1>
+                <p class="lead mb-4">
+                    Desfrute dos melhores cafés e cappuccinos da região em um ambiente único e acolhedor
+                </p>
+                <a href="menu.html" class="btn btn-warning btn-lg">Ver Menu</a>
+            </div>
+        </section>
+
+        <!-- Especialidades -->
+        <section class="coffee-section">
+            <div class="container">
+                <h1 class="text-center mb-5" style="color: var(--coffee-dark);">Nossas Especialidades</h1>
+                <div class="row">
+                      <article class="col-md-3 mb-4">
+                        <div class="coffee-card text-center">
+                            <a href="menu.html#cafes-especiais"><i class="bi bi-cup-hot-fill"
+                                    style="font-size: 3rem; color: var(--coffee-brown);"></i></a>
+                            <h3 class="mt-3">Café Expresso</h3>
+                            <p>
+                                Grãos selecionados, torrados na medida certa para um sabor intenso e marcante.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 mb-4">
+                        <div class="coffee-card text-center">
+                            <a href="menu.html#cappuccinos"><i class="bi bi-heart-fill"
+                                    style="font-size: 3rem; color: var(--coffee-brown);"></i></a>
+                            <h3 class="mt-3">Cappuccinos</h3>
+                            <p>
+                                A combinação perfeita entre café expresso, leite vaporizado e uma generosa camada de
+                                espuma.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 mb-4">
+                        <div class="coffee-card text-center">
+                            <a href="menu.html#bebidas"><i class="bi bi-star-fill"
+                                    style="font-size: 3rem; color: var(--coffee-brown);"></i></a>
+
+                            <h3 class="mt-3">Bebidas Especiais</h3>
+                            <p>
+                                Misturas únicas desenvolvidas pelos nossos baristas, sabores exclusivos e memoráveis.
+                            </p>
+                        </div>
+                    </article>
+                     <article class="col-md-3 mb-4">
+                        <div class="coffee-card text-center">
+                            <a href="menu.html#doce"><i class="bi bi-cake-fill"
+                                    style="font-size: 3rem; color: var(--coffee-brown);"></i></a>
+                            <h3 class="mt-3">Doces</h3>
+                            <p>
+                                Grãos selecionados, torrados na medida certa para um sabor intenso e marcante.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark footer text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-2">Nossa Empresa</h5>
+                    <address class="mb-0">
+                        <strong>Orla do Café</strong><br>
+                        <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>
+                        Avenida da Orla, 123<br>
+                        <i class="bi bi-building-fill-check me-2" aria-hidden="true"></i>
+                        CNPJ 00.111.000/0001-00
+                    </address>
+                </div>
+
+                <nav class="col-md-3 mb-3">
+                    <h5>Links Rápidos</h5>
+                    <ul class="mb-0 list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="pedidos.html">Pedidos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-2">Contato</h5>
+                    <p class="mb-1">
+                        <a href="contato.html" class="text-decoration-none text-white">
+                            <i class="bi bi-send-fill me-2" aria-hidden="true"></i>
+                            Mensagem
+                        </a>
+                    </p>
+                    <p class="mb-1">
+                        <a href="mailto:contato@orladocafe.com" class="text-decoration-none text-white">
+                            <i class="bi bi-envelope-at-fill me-2" aria-hidden="true"></i>
+                            contato@orladocafe.com
+                        </a>
+                    </p>
+                    <p class="mb-0">
+                        <i class="bi bi-phone me-2" aria-hidden="true"></i>
+                        Telefone: <a href="tel:+5511907004020" class="text-decoration-none text-white">(11)
+                            90700-4020</a>
+                    </p>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-2">Horário de Funcionamento</h5>
+                    <p class="mb-1">Segunda a Sexta: 6h às 22h</p>
+                    <p class="mb-1">Sábado: 7h às 23h</p>
+                    <p class="mb-0">Domingo: 7h às 21h</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center copyright">
+                <div class="row align-items-center">
+                    <div class="col-md-8 text-center text-md-start mb-2 mb-md-0">
+                        <p class="mb-0">
+                            <a class="text-white text-decoration-none border-bottom" href="#">
+                                © 2025 Orla do Café.
+                            </a>
+                            Todos Direitos Reservados. Desenvolvido por Celso
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center text-md-end">
+                        <a href="https://www.facebook.com" class="text-white fs-4 me-2" aria-label="Facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/" class="text-white fs-4 me-2" aria-label="Instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://web.whatsapp.com/" class="text-white fs-4 me-2" aria-label="WhatsApp"><i
+                                class="bi bi-whatsapp"></i></a>
+                        <a href="https://x.com/" class="text-white fs-4" aria-label="Twitter"><i
+                                class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Biblioteca bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
