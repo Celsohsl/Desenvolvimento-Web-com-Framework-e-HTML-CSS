@@ -51,7 +51,6 @@ Criar um protótipo funcional da tela inicial, utilizando um framework adequado:
 - **js/contato.js**: Lógica do formulário de contato.
 - **img/**: Imagens do site, incluindo favicon, produtos e carrossel.
 - **package.json**: Dependências do projeto (Bootstrap e Bootstrap Icons).
-- **.vscode/settings.json**: Configuração de porta para Live Server.
 
 ## Como Executar
 
@@ -62,6 +61,7 @@ Criar um protótipo funcional da tela inicial, utilizando um framework adequado:
 2. Abra o projeto no VS Code.
 3. Utilize a extensão **Live Server** para rodar localmente.
 4. Acesse `index.html` pelo navegador.
+4. Se necessário utlize **npm install** para instalar as dependências.
 
 ## Observações:
 Este projeto é apenas para fins acadêmicos e demonstração.
